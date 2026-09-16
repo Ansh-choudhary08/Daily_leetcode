@@ -6,7 +6,5 @@ class Solution:
 
         for i in range(n):
             ans ^= i
-            print(ans)
             ans ^= nums[i]
-            print(ans)
         return ans
